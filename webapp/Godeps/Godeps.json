@@ -1,0 +1,15 @@
+{
+	"ImportPath": "go-research/webapp",
+	"GoVersion": "go1.3.3",
+	"Deps": [
+		{
+			"ImportPath": "github.com/russross/blackfriday",
+			"Comment": "v1.2-42-g77efab5",
+			"Rev": "77efab57b2f74dd3f9051c79752b2e8995c8b789"
+		},
+		{
+			"ImportPath": "github.com/shurcooL/sanitized_anchor_name",
+			"Rev": "8e87604bec3c645a4eeaee97dfec9f25811ff20d"
+		}
+	]
+}
