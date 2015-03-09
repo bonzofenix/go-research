@@ -30,6 +30,7 @@ func main() {
 
 	fmt.Println("Starting server at port:" + port)
 
+	http.ListenAndServe(":"+port, r)
 }
 
 func HomeHandler(rw http.ResponseWriter, r *http.Request) {
