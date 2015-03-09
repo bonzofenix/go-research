@@ -22,7 +22,7 @@ func main() {
 	posts.Methods("GET").HandlerFunc(PostsIndexHandler)
 	posts.Methods("POST").HandlerFunc(PostsCreateHandler)
 
-	post := r.Path("/posts/{id}").Subrouter()
+	post := r.PathPrefix("/posts/{id}").Subrouter()
 	post.Methods("GET").Path("/edit").HandlerFunc(PostEditHandler)
 	post.Methods("GET").HandlerFunc(PostShowHandler)
 	post.Methods("PUT", "POST").HandlerFunc(PostUpdateHandler)
