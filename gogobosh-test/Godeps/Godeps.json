@@ -1,0 +1,15 @@
+{
+	"ImportPath": "github.com/bonzofenix/go-research/gogobosh-test",
+	"GoVersion": "go1.3.3",
+	"Deps": [
+		{
+			"ImportPath": "github.com/cloudfoundry-community/gogobosh",
+			"Rev": "0f1d0aabf4902af10344c50df9237bfd59376871"
+		},
+		{
+			"ImportPath": "launchpad.net/goyaml",
+			"Comment": "51",
+			"Rev": "gustavo@niemeyer.net-20140305200416-7gh64vkcckre5mob"
+		}
+	]
+}
